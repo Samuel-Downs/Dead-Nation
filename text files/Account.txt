@@ -1,0 +1,2 @@
+CREATE TABLE Account(userName text null, password text null);
+INSERT INTO Account(useName, password) Values( null, null);

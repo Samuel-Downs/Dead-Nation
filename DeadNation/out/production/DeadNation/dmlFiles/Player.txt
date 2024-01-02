@@ -1,0 +1,6 @@
+CREATE TABLE Player(player_Health int NOT NULL,	equipped_ItemID	int, current_Room int NOT NULL);
+
+INSERT INTO Player(player_Health, equipped_ItemID, current_Room) Values(20, NULL, 1);
+
+
+

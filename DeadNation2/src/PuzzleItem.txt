@@ -1,0 +1,8 @@
+CREATE TABLE PuzzleItem(exitID int not Null, itemID int not null);
+INSERT INTO PuzzleItem(exitID, itemID) Values(1, 1);
+INSERT INTO PuzzleItem(exitID, itemID) Values(1, 2);
+INSERT INTO PuzzleItem(exitID, itemID) Values(19, 19);
+INSERT INTO PuzzleItem(exitID, itemID) Values(58, 18);
+INSERT INTO PuzzleItem(exitID, itemID) Values(59, 14);
+INSERT INTO PuzzleItem(exitID, itemID) Values(59, 15);
+INSERT INTO PuzzleItem(exitID, itemID) Values(62, 21);

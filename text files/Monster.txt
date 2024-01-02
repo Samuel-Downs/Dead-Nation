@@ -1,0 +1,6 @@
+CREATE TABLE Monster(monsterID int Primary Key not Null, monsterName text not null, monsterHealth int not null, monsterDamage int not null, monsterLocationID int not null);
+INSERT INTO Monster(monsterID, monsterName,  monsterHealth, monsterDamage, monsterLocationID) Values(1, 'Chef', 15, 10, 6);
+INSERT INTO Monster(monsterID, monsterName, monsterHealth, monsterDamage, monsterLocationID) Values(2, 'PyroManiac monster', 20, 20, 15);
+INSERT INTO Monster(monsterID, monsterName, monsterHealth, monsterDamage, monsterLocationID) Values(3, 'Librarian zombie', 15, 10, 28);
+INSERT INTO Monster(monsterID, monsterName, monsterHealth, monsterDamage, monsterLocationID) Values(4, 'Guard zombie', 15, 7, 32);
+INSERT INTO Monster(monsterID, monsterName, monsterHealth, monsterDamage, monsterLocationID) Values(5, 'Warden', 30, 20, 34);

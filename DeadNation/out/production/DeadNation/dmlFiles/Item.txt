@@ -1,0 +1,33 @@
+CREATE TABLE Item(itemID int Primary Key not Null, itemName text not null, itemDescription text not null, itemLocation text not null, itemRoomLocation int not null, itemUse text not null, itemAttributes int not null, item_restriction text null, itemCommand text not null);
+INSERT INTO Item(itemID, itemName, itemDescription, itemLocation, itemRoomLocation,itemUse, itemAttributes, item_restriction, itemCommand ) Values(1, 'Bobby Pin', 'A small clip for fixing hair in place. Useful for picking locks', 'r', 1, 'Puzzle', 0, null, 'SEARCH');
+INSERT INTO Item(itemID, itemName, itemDescription, itemLocation, itemRoomLocation,itemUse, itemAttributes, item_restriction, itemCommand ) Values(2, 'Cell Key', 'A metal key for unlocking prison cells', 'r', 1, 'Puzzle', 0, null, 'TAKE');
+INSERT INTO Item(itemID, itemName, itemDescription, itemLocation, itemRoomLocation,itemUse, itemAttributes, item_restriction, itemCommand ) Values(3, 'Prison Shank', 'A single use weapon to be used on one zombie, breaks afterward', 'r', 4, 'Puzzle', 0, null, 'SEARCH');
+INSERT INTO Item(itemID, itemName, itemDescription, itemLocation, itemRoomLocation,itemUse, itemAttributes, item_restriction, itemCommand ) Values(4, 'Rolling pin', 'A weapon that does double the damage of the shank, still only works for one zombie', 'r', 5, 'Weapon', 10, 'chef', 'SEARCH');
+INSERT INTO Item(itemID, itemName, itemDescription, itemLocation, itemRoomLocation,itemUse, itemAttributes, item_restriction, itemCommand ) Values(5, 'Exit Key', 'A key for exiting cell block d', 'r', 5, 'Puzzle', 0, null, 'SEARCH');
+INSERT INTO Item(itemID, itemName, itemDescription, itemLocation, itemRoomLocation,itemUse, itemAttributes, item_restriction, itemCommand ) Values(6, 'Kitchen Key', 'A key for entering cell the kitchen', 'r', 7, 'Puzzle', 0, null, 'SEARCH');
+INSERT INTO Item(itemID, itemName, itemDescription, itemLocation, itemRoomLocation,itemUse, itemAttributes, item_restriction, itemCommand ) Values(7, 'Medkit', 'Restores Full Health', 'r', 8, 'Healing', 0, null, 'SEARCH');
+INSERT INTO Item(itemID, itemName, itemDescription, itemLocation, itemRoomLocation,itemUse, itemAttributes, item_restriction, itemCommand ) Values(8, 'Medkit', 'Restores Full Health', 'r', 14, 'Healing', 0, null, 'PICKUP');
+INSERT INTO Item(itemID, itemName, itemDescription, itemLocation, itemRoomLocation,itemUse, itemAttributes, item_restriction, itemCommand ) Values(9, 'Medkit', 'Restores Full Health', 'r', 27, 'Healing', 0, null, 'SEARCH');
+INSERT INTO Item(itemID, itemName, itemDescription, itemLocation, itemRoomLocation,itemUse, itemAttributes, item_restriction, itemCommand ) Values(10, 'Medkit', 'Restores Full Health', 'r', 19, 'Healing', 0, null, 'PICKUP');
+INSERT INTO Item(itemID, itemName, itemDescription, itemLocation, itemRoomLocation,itemUse, itemAttributes, item_restriction, itemCommand ) Values(11, 'Medkit', 'Restores Full Health', 'r', 33, 'Healing', 0, null, 'PICKUP');
+INSERT INTO Item(itemID, itemName, itemDescription, itemLocation, itemRoomLocation,itemUse, itemAttributes, item_restriction, itemCommand ) Values(12, 'Lighter', 'Can create small flame on command', 'r', 12, 'Weapon', 20, 'pyromaniac monster', 'PICKUP');
+INSERT INTO Item(itemID, itemName, itemDescription, itemLocation, itemRoomLocation,itemUse, itemAttributes, item_restriction, itemCommand ) Values(13, 'Dumbbell', 'An upgrade to your weapon', 'r', 14, 'Weapon', 10, null, 'PICKUP');
+INSERT INTO Item(itemID, itemName, itemDescription, itemLocation, itemRoomLocation,itemUse, itemAttributes, item_restriction, itemCommand ) Values(14, 'Flashlight', 'A necessary tool for dark rooms', 'r', 19, 'Puzzle', 0, null, 'PICKUP');
+INSERT INTO Item(itemID, itemName, itemDescription, itemLocation, itemRoomLocation,itemUse, itemAttributes, item_restriction, itemCommand ) Values(15, 'Flashlight', 'A necessary tool for dark rooms', 'r', 33, 'Puzzle', 0, null, ' ');
+INSERT INTO Item(itemID, itemName, itemDescription, itemLocation, itemRoomLocation,itemUse, itemAttributes, item_restriction, itemCommand ) Values(16, 'Prison Spear', 'Made of rulers and bars of soap, well placed hit can take most zombies', 'r', 26, 'Weapon', 10, null, 'SEARCH');
+INSERT INTO Item(itemID, itemName, itemDescription, itemLocation, itemRoomLocation,itemUse, itemAttributes, item_restriction, itemCommand ) Values(17, 'Library key', 'Opens the locked library', 'r', 29, 'Puzzle', 0, null, 'SEARCH');
+INSERT INTO Item(itemID, itemName, itemDescription, itemLocation, itemRoomLocation,itemUse, itemAttributes, item_restriction, itemCommand ) Values(18, 'Guard tower card', 'A keycard for the guard tower', 'r', 28, 'Puzzle', 0, null, 'SEARCH');
+INSERT INTO Item(itemID, itemName, itemDescription, itemLocation, itemRoomLocation,itemUse, itemAttributes, item_restriction, itemCommand ) Values(19, 'Thermite Pouch', 'A scary chemical combination capable of melting two locks', 'r', 15, 'Puzzle', 0, null, 'PICKUP');
+INSERT INTO Item(itemID, itemName, itemDescription, itemLocation, itemRoomLocation,itemUse, itemAttributes, item_restriction, itemCommand ) Values(21, 'Thermite Pouch', 'A scary chemical combination capable of melting two locks', 'r', 15, 'Puzzle', 0, null, 'PICKUP');
+INSERT INTO Item(itemID, itemName, itemDescription, itemLocation, itemRoomLocation,itemUse, itemAttributes, item_restriction, itemCommand ) Values(20, 'Handgun', 'Probably capable of taking down a zombie,needs to be loaded with bullets to fire', 'r', 32, 'Weapon', 30, null, 'PICKUP');
+
+
+
+
+
+
+
+
+
+
+
